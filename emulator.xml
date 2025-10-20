@@ -3,9 +3,7 @@
 
   <include name="base.xml"/>
 
-  <default revision="refs/tags/android-4.0.4_r2.1"
-           remote="caf"
-           sync-j="4" />
+  <default revision="refs/tags/android-10.0.0_r11" remote="aosp" sync-j="4">
 
   <!-- Gonk-specific things and forks -->
   <project path="bionic" name="platform_bionic" remote="b2g" revision="b2g-4.0.4_r2.1" />
