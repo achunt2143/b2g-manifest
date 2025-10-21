@@ -3,8 +3,6 @@
 
   <include name="base.xml"/>
 
-  <default revision="main" remote="aosp" sync-j="4" />
-
   <!-- Gonk-specific things and forks -->
   <project path="bionic" name="platform_bionic" remote="b2g2" revision="master" />
   <project path="build" name="platform_build" remote="b2g2" revision="b2g2">
