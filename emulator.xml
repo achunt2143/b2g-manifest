@@ -29,37 +29,20 @@
 <project path="external/liblzf" name="platform/external/liblzf" />
 <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
 <project path="external/libnl-headers" name="platform/external/libnl-headers" />
-<project path="external/libvpx" name="platform/external/libvpx" />
-<project path="external/mksh" name="platform/external/mksh" />
 <project path="external/openssl" name="platform/external/openssl" />
-<project path="external/protobuf" name="platform/external/protobuf" />
 <project path="external/safe-iop" name="platform/external/safe-iop" />
-<project path="external/skia" name="platform/external/skia" revision="8c1c7cfacd82a174c65fcbf839d7037e3692aee8" />
 <project path="external/sonivox" name="platform/external/sonivox" />
 <project path="external/speex" name="platform/external/speex" />
 <project path="external/stlport" name="platform/external/stlport" />
-<project path="external/strace" name="platform/external/strace" />
-<project path="external/svox" name="platform/external/svox"/>
-<project path="external/tagsoup" name="platform/external/tagsoup" />
-<project path="external/tinyalsa" name="platform/external/tinyalsa" />
-<project path="external/tremolo" name="platform/external/tremolo" />
-<project path="external/webp" name="platform/external/webp" />
-<project path="external/webrtc" name="platform/external/webrtc" />
 <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
-<project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
 <project path="external/yaffs2" name="platform/external/yaffs2" />
-<project path="external/zlib" name="platform/external/zlib" />
 <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
 <project path="frameworks/support" name="platform/frameworks/support" />
-<project path="hardware/libhardware" name="platform/hardware/libhardware" />
-<project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="af9565aa8be0136463ec549d9d3abdd906d2c390" />
-<project path="libcore" name="platform/libcore" />
 <project path="ndk" name="platform/ndk" />
 <project path="prebuilt" name="platform/prebuilt" />
 <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" />
 <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" />
 <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
-<project path="prebuilts/tools" name="platform/prebuilts/tools" revision="acba00cdb4596c6dcb61ed06f14cf4ec89623539" />
 <project path="system/vold" name="platform/system/vold" />
 
   <!-- Emulator-specific things -->
