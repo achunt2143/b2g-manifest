@@ -8,7 +8,7 @@
   <!-- Gonk-specific things and forks -->
   <project path="bionic" name="platform_bionic" remote="b2g2" revision="master" />
   <project path="build" name="platform_build" remote="b2g2" revision="master">
-    <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
   <project path="development" name="android-development" remote="b2g" revision="b2g-ics-plus-aosp" />
@@ -23,7 +23,7 @@
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="sdk" name="android-sdk" remote="b2g" revision="b2g-ics" />
   <project path="system/darwinstreamingserver" name="darwinstreamingserver" remote="b2g" revision="master" />
-
+ 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
@@ -66,7 +66,6 @@
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="platform/external/strace" />
-  <project path="external/svox" name="platform/external/svox"/>
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tremolo" name="platform/external/tremolo" />
@@ -88,11 +87,9 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="acba00cdb4596c6dcb61ed06f14cf4ec89623539" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" revision="91e5551f88aea5aa64e1b4f8b4b52d7be2b28b64" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/vold" name="platform/system/vold" />
 
   <!-- Emulator-specific things -->
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="b2g" revision="b2g-4.0.4_r2.1" />

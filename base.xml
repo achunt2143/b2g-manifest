@@ -12,6 +12,7 @@
   <remote name="caf" fetch="https://git.codelinaro.org/clo/" />
   <remote name="linaro" fetch="https://android.git.linaro.org/git/" />
   <remote name="mozilla" fetch="https://github.com/mozilla/" />
+  <remote fetch="https://github.com/kaiostech/" name="kaios"/>
 
   <!--
     B2G repositories for all targets
@@ -25,5 +26,37 @@
   <project name="platform_system_libfdio" path="system/libfdio" remote="b2g" revision="master"/>
   <project name="platform_system_libpdu" path="system/libpdu" remote="b2g" revision="master"/>
   <project name="platform_system_sensorsd" path="system/sensorsd" remote="b2g" revision="master"/>
+  
+  <!-- KaiOS -->
+  <project groups="kai" name="api-daemon" path="gonk-misc/api-daemon" remote="kaios" revision="main"/>
+  <project groups="kai" name="gecko-b2g" path="gecko" remote="kaios" revision="gonk"/>
+  <project groups="kai" name="gonk-misc" path="gonk-misc" remote="kaios" revision="main"/>
+  <project groups="kai" name="hidl-gen" path="system/tools/hidl" remote="kaios" revision="master"/>
+  <project groups="kai" name="libcarthage" path="gonk-misc/libcarthage" remote="kaios" revision="android_10"/>
+  <project groups="kai" name="gonk-binder" path="gonk-misc/gonk-binder" remote="kaios" revision="master"/>
+  
+  <!-- AOSP change in KaiOS -->
+  <project groups="kai" name="platform_build" path="build/make" remote="kaios" revision="gonk_android-10.0.0_r11">
+    <copyfile src="core/root.mk" dest="Makefile"/>
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
+    <linkfile src="core" dest="build/core"/>
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+    <linkfile src="target" dest="build/target"/>
+    <linkfile src="tools" dest="build/tools"/>
+  </project>
+  <project groups="kai" name="platform_build_soong" path="build/soong" remote="kaios" revision="gonk_android-10.0.0_r11">
+    <linkfile src="root.bp" dest="Android.bp"/>
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
+  </project>
+  <project groups="kai" name="platform_system_connectivity_wificond" path="system/connectivity/wificond" remote="kaios" revision="gonk_android-10.0.0_r11"/>
+  <project groups="kai" name="platform_system_core" path="system/core" remote="kaios" revision="gonk_android-10.0.0_r11"/>
+  <project groups="kai" name="platform_system_sepolicy" path="system/sepolicy" remote="kaios" revision="gonk_android-10.0.0_r11"/>
+  <project groups="kai" name="platform_system_vold" path="system/vold" remote="kaios" revision="gonk_android-10.0.0_r11"/>
+  <project groups="kai" name="platform_art" path="art" remote="kaios" revision="gonk_android-10.0.0_r11"/>
+  <project groups="kai" name="platform_external_svox" path="external/svox" remote="kaios" revision="master"/>
+  <project groups="kai" name="librecovery" path="librecovery" remote="kaios" revision="master"/>
+  
+  <include name="aosp.xml"/>
 
 </manifest>
