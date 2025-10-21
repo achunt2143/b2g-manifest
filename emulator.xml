@@ -44,6 +44,5 @@
 
   <!-- Emulator-specific things -->
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="b2g" revision="b2g-4.0.4_r2.1" />
-  <project path="prebuilts/qemu-kernel" name="platform_prebuilts_qemu-kernel" remote="b2g" revision="b2g-ics" />
 
 </manifest>
