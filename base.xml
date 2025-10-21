@@ -8,6 +8,7 @@
   <remote name="aosp" fetch="https://android.googlesource.com/" />
   <remote name="apitrace" fetch="https://github.com/apitrace" />
   <remote name="b2g" fetch="https://github.com/mozilla-b2g/" />
+  <remote name="b2g2" fetch="https://github.com/achunt2143/" />
   <remote name="caf" fetch="https://git.codelinaro.org/clo/" />
   <remote name="linaro" fetch="https://android.git.linaro.org/git/" />
   <remote name="mozilla" fetch="https://github.com/mozilla/" />
