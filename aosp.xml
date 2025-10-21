@@ -2,6 +2,7 @@
 <manifest>
 
   <remote fetch="https://android.googlesource.com" name="aosp"/>
+  <default revision="refs/tags/android-15.0.0_r11" remote="aosp" sync-j="4"/>
 
   <!-- AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />

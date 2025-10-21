@@ -5,7 +5,6 @@
     Remotes
     -->
 
-  <remote name="aosp" fetch="https://android.googlesource.com/" />
   <remote name="apitrace" fetch="https://github.com/apitrace" />
   <remote name="b2g" fetch="https://github.com/mozilla-b2g/" />
   <remote name="b2g2" fetch="https://github.com/achunt2143/" />
