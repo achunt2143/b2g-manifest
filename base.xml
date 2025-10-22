@@ -33,7 +33,7 @@
   <project groups="kai" name="gonk-binder" path="gonk-misc/gonk-binder" remote="kaios" revision="master"/>
   
   <!-- AOSP change in KaiOS -->
-  <project groups="kai" name="platform_build" path="build/make" remote="kaios" revision="gonk_android-10.0.0_r11">
+  <project groups="kai" name="platform_build" path="build/make" remote="b2g2" revision="b2g2">
     <copyfile src="core/root.mk" dest="Makefile"/>
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
