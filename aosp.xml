@@ -6,17 +6,17 @@
 
   <!-- AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" revision="refs/tags/android-10.0.0_r47" />
+  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="external/ARMComputeLibrary" name="platform/external/ARMComputeLibrary" groups="pdk" revision="refs/tags/android-10.0.0_r47" />
+  <project path="external/ARMComputeLibrary" name="platform/external/ARMComputeLibrary" groups="pdk" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault,pdk-fs" />
-  <project path="external/android-clat" name="platform/external/android-clat" groups="pdk" revision="refs/tags/android-platform-14.0.0_r22" />
+  <project path="external/android-clat" name="platform/external/android-clat" groups="pdk" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk" />
   <project path="external/apache-commons-bcel" name="platform/external/apache-commons-bcel" groups="pdk" />
   <project path="external/apache-commons-compress" name="platform/external/apache-commons-compress" groups="pdk" />
@@ -24,7 +24,7 @@
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk" />
   <project path="external/apache-http" name="platform/external/apache-http" groups="pdk" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" />
-  <project path="external/archive-patcher" name="platform/external/archive-patcher" groups="pdk" revision="refs/tags/android-10.0.0_r47" />
+  <project path="external/archive-patcher" name="platform/external/archive-patcher" groups="pdk" />
   <project path="external/arm-neon-tests" name="platform/external/arm-neon-tests" groups="vendor" />
   <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" groups="pdk" />
   <project path="external/autotest" name="platform/external/autotest" groups="pdk-fs" />
@@ -96,7 +96,7 @@
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk" />
   <project path="external/icu" name="platform/external/icu" groups="pdk" />
-  <project path="external/ImageMagick" name="platform/external/ImageMagick" groups="pdk" revision="refs/tags/android-platform-14.0.0_r22" />
+  <project path="external/ImageMagick" name="platform/external/ImageMagick" groups="pdk" />
   <project path="external/image_io" name="platform/external/image_io" groups="pdk" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk" />
@@ -168,7 +168,7 @@
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/Microsoft-GSL" name="platform/external/Microsoft-GSL" groups="pdk" revision="refs/tags/android-10.0.0_r47" />
+  <project path="external/Microsoft-GSL" name="platform/external/Microsoft-GSL" groups="pdk" />
   <project path="external/minigbm" name="platform/external/minigbm" groups="pdk" />
   <project path="external/minijail" name="platform/external/minijail" groups="pdk" />
   <project path="external/mksh" name="platform/external/mksh" groups="pdk" />
@@ -259,7 +259,7 @@
   <project path="external/robolectric-shadows" name="platform/external/robolectric-shadows" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk" />
   <project path="external/rootdev" name="platform/external/rootdev" groups="pdk" />
-  <project path="external/Reactive-Extensions/RxCpp" name="platform/external/Reactive-Extensions/RxCpp" groups="pdk" revision="refs/tags/android-platform-13.0.0_r34" />
+  <project path="external/Reactive-Extensions/RxCpp" name="platform/external/Reactive-Extensions/RxCpp" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/setupcompat" name="platform/external/setupcompat" groups="pdk" />
@@ -356,6 +356,7 @@
   <project path="prebuilts/checkcolor" name="platform/prebuilts/checkcolor" groups="pdk" clone-depth="1" />
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" groups="pdk" clone-depth="1" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="pdk,darwin" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" />
   <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" groups="pdk" clone-depth="1" revision="refs/tags/ndk-r22" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" clone-depth="1" />
@@ -433,11 +434,25 @@
   <project path="toolchain/pgo-profiles" name="toolchain/pgo-profiles" groups="pdk" />
   <project path="tools/acloud" name="platform/tools/acloud" groups="tools,vts,projectarch,pdk,tradefed" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
+  <project path="tools/apksig" name="platform/tools/apksig" groups="pdk,tradefed" />
+  <project path="tools/apkzlib" name="platform/tools/apkzlib" groups="pdk,tradefed" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
+  <project path="tools/currysrc" name="platform/tools/currysrc" groups="pdk" />
+  <project path="tools/dexter" name="platform/tools/dexter" groups="tools,pdk-fs" />
+  <project path="tools/external_updater" name="platform/tools/external_updater" groups="tools" />
+  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" clone-depth="1" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
+  <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="nopresubmit,pdk,tradefed" />
+  <project path="tools/metalava" name="platform/tools/metalava" groups="pdk,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
+  <project path="tools/ndkports" name="platform/tools/ndkports" groups="pdk" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" />
+  <project path="tools/security" name="platform/tools/security" groups="pdk,tools" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
+  <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
+  <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 </manifest>
