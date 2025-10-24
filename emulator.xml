@@ -4,12 +4,7 @@
   <include name="base.xml"/>
 
     <!-- Gonk-specific things and forks -->
-  <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="master" />
-  <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="master" />
-  <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="master" />
-  <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
-  <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
-  <project path="system/darwinstreamingserver" name="darwinstreamingserver" remote="b2g" revision="master" />
+ 
 
   <!-- Stock Android things -->
  
