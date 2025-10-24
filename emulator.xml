@@ -8,7 +8,6 @@
   <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="master" />
   <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="master" />
   <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
-  <project path="external/qemu" name="platform_external_qemu" remote="b2g" revision="b2g-ics"/>
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="system/darwinstreamingserver" name="darwinstreamingserver" remote="b2g" revision="master" />
 
