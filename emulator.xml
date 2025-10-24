@@ -31,7 +31,7 @@
 <project path="external/yaffs2" name="platform/external/yaffs2" revision="refs/tags/android-5.1.1_r38" />
 <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="refs/tags/android-8.0.0_r51" />
 <project path="frameworks/support" name="platform/frameworks/support" revision="refs/tags/android-9.0.0_r61" />
-<project path="ndk" name="platform/prebuilt/ndk" clone-depth="1" />
+<project path="ndk" name="platform/prebuilts/ndk" clone-depth="1" />
 <project path="prebuilt" name="platform/prebuilt" revision="refs/tags/android-4.1.2_r2.1" />
 <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="refs/tags/android-4.4.4_r2.0.1" />
 <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="refs/tags/android-4.4.4_r2.0.1" />
