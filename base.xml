@@ -25,12 +25,14 @@
   <project name="platform_system_sensorsd" path="system/sensorsd" remote="b2g" revision="master"/>
   
   <!-- KaiOS -->
-  <project groups="kai" name="api-daemon" path="gonk-misc/api-daemon" remote="kaios" revision="main"/>
   <project groups="kai" name="gecko-b2g" path="gecko" remote="kaios" revision="gonk"/>
   <project groups="kai" name="gonk-misc" path="gonk-misc" remote="kaios" revision="main"/>
   <project groups="kai" name="hidl-gen" path="system/tools/hidl" remote="kaios" revision="master"/>
   <project groups="kai" name="libcarthage" path="gonk-misc/libcarthage" remote="kaios" revision="android_10"/>
   <project groups="kai" name="gonk-binder" path="gonk-misc/gonk-binder" remote="kaios" revision="master"/>
+  <project groups="kai" name="fake_test" path="test" remote="kaios" revision="master">
+    <copyfile dest="frameworks/base/packages/Android.mk" src="vts/tools/build/Android.host_config.mk"/>
+  </project>
   
   <!-- AOSP change in KaiOS -->
   <project groups="kai" name="platform_build" path="build/make" remote="b2g2" revision="b2g2">
@@ -48,7 +50,6 @@
   </project>
   <project groups="kai" name="platform_system_connectivity_wificond" path="system/connectivity/wificond" remote="kaios" revision="gonk_android-10.0.0_r11"/>
   <project groups="kai" name="platform_system_core" path="system/core" remote="kaios" revision="gonk_android-10.0.0_r11"/>
-  <project groups="kai" name="platform_system_sepolicy" path="system/sepolicy" remote="kaios" revision="gonk_android-10.0.0_r11"/>
   <project groups="kai" name="platform_system_vold" path="system/vold" remote="kaios" revision="gonk_android-10.0.0_r11"/>
   <project groups="kai" name="platform_art" path="art" remote="kaios" revision="gonk_android-10.0.0_r11"/>
   <project groups="kai" name="platform_external_svox" path="external/svox" remote="kaios" revision="master"/>
