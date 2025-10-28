@@ -8,10 +8,9 @@
   <!-- Emulator specific things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
   <project name="device/generic/goldfish" path="device/generic/goldfish"/>
-  <project name="platform/external/qemu" path="external/qemu" revision="refs/head/main"/>
+  <project name="platform/external/qemu" path="external/qemu" revision="refs/heads/main" clone-depth="1"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform/development" path="development"/>
-  <remove-project name="fake-qemu-kernel" />
   <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel"/>
   <project name="platform/sdk" path="sdk"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>
