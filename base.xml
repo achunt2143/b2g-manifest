@@ -20,7 +20,7 @@
 
   <project name="gaia" path="gaia" remote="b2g" revision="master" />
   <project name="gecko-b2g" path="gecko" remote="b2g" revision="b2g48_v2_6" />
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master" />
+  <project name="gonk-misc" path="gonk-misc" remote="b2g2" revision="main" />
   <project name="moztt" path="external/moztt" remote="b2g" revision="master"/>
   <project name="platform_hardware_libhardware_moz" path="hardware/libhardware_moz" remote="b2g" revision="master"/>
   <project name="platform_system_libfdio" path="system/libfdio" remote="b2g" revision="master"/>
