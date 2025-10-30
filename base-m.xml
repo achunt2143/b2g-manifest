@@ -33,7 +33,6 @@
 
   <project name="device/common" path="device/common"/>
   <project name="device/sample" path="device/sample"/>
-  <project path="pdk" name="platform/pdk" groups="pdk" />
   <project name="platform/abi/cpp" path="abi/cpp"/>
   <project name="platform/bionic" path="bionic"/>
   <project name="platform_bootable_recovery" path="bootable/recovery" remote="b2g2" revision="foxboot" clone-depth="1"/>
